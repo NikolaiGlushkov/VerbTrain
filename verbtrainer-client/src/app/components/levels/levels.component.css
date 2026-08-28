@@ -1,0 +1,78 @@
+/* Контейнер меню выбора уровней */
+.levels-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh; 
+    padding: clamp(16px, 3vh, 32px) 20px; 
+    background-color: #ffffff; 
+}
+
+/* Заголовок */
+.menu-title {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-size: clamp(20px, 5.5vh, 28px); 
+    color: #1f2937; 
+    margin-bottom: clamp(20px, 5vh, 40px); 
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Вертикальный список */
+.levels-list {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(10px, 2vh, 16px); 
+    width: 100%;
+    max-width: 450px; 
+}
+
+/* Базовый стиль крупной мобильной кнопки */
+.level-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative; 
+    width: 100%;
+    padding: clamp(12px, 2vh, 18px) 20px;
+    
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-size: clamp(14px, 2vh, 18px);
+    font-weight: 600;
+    
+    color: #ffffff;
+    background-color: #2563eb;
+    border: none;
+    border-bottom: 5px solid #1d4ed8;
+    border-radius: 14px;
+    
+    transition: all 0.1s ease;
+}
+
+/* Эффект нажатия */
+.level-btn:active:not(:disabled) {
+    transform: translateY(3px);
+}
+
+/* Стиль для заблокированных уровней */
+.level-btn:disabled,
+.level-btn.locked {
+    background-color: #e5e7eb;
+    border-bottom: 5px solid #cccccc;
+    color: #afafaf;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Иконка замочка */
+.lock-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: clamp(16px, 2.2vh, 20px);
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+}

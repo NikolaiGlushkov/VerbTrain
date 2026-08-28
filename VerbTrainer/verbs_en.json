@@ -1,0 +1,2919 @@
+[
+    {
+        "Infinitive": "be",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "was / were"
+            },
+            {
+                "FormType": 3,
+                "Value": "been"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "быть"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "was / wear"
+            },
+            {
+                "FormType": 2,
+                "Value": "was / wer"
+            },
+            {
+                "FormType": 2,
+                "Value": "vas / vere"
+            },
+            {
+                "FormType": 2,
+                "Value": "wos / were"
+            },
+            {
+                "FormType": 3,
+                "Value": "wasen"
+            },
+            {
+                "FormType": 3,
+                "Value": "weren"
+            },
+            {
+                "FormType": 3,
+                "Value": "beened"
+            },
+            {
+                "FormType": 3,
+                "Value": "bean"
+            }
+        ]
+    },
+    {
+        "Infinitive": "become",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "became"
+            },
+            {
+                "FormType": 3,
+                "Value": "become"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "становиться"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "bekame"
+            },
+            {
+                "FormType": 2,
+                "Value": "become"
+            },
+            {
+                "FormType": 2,
+                "Value": "becomed"
+            },
+            {
+                "FormType": 2,
+                "Value": "becaim"
+            },
+            {
+                "FormType": 3,
+                "Value": "becomen"
+            },
+            {
+                "FormType": 3,
+                "Value": "bekome"
+            },
+            {
+                "FormType": 3,
+                "Value": "became"
+            },
+            {
+                "FormType": 3,
+                "Value": "becomed"
+            }
+        ]
+    },
+    {
+        "Infinitive": "begin",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "began"
+            },
+            {
+                "FormType": 3,
+                "Value": "begun"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "начинать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "begined"
+            },
+            {
+                "FormType": 2,
+                "Value": "beegen"
+            },
+            {
+                "FormType": 2,
+                "Value": "bigen"
+            },
+            {
+                "FormType": 2,
+                "Value": "begen"
+            },
+            {
+                "FormType": 3,
+                "Value": "begined"
+            },
+            {
+                "FormType": 3,
+                "Value": "began"
+            },
+            {
+                "FormType": 3,
+                "Value": "begone"
+            },
+            {
+                "FormType": 3,
+                "Value": "begon"
+            }
+        ]
+    },
+    {
+        "Infinitive": "break",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "broke"
+            },
+            {
+                "FormType": 3,
+                "Value": "broken"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "ломать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "broked"
+            },
+            {
+                "FormType": 2,
+                "Value": "brouke"
+            },
+            {
+                "FormType": 2,
+                "Value": "brake"
+            },
+            {
+                "FormType": 2,
+                "Value": "breaked"
+            },
+            {
+                "FormType": 3,
+                "Value": "breaked"
+            },
+            {
+                "FormType": 3,
+                "Value": "brauken"
+            },
+            {
+                "FormType": 3,
+                "Value": "broked"
+            },
+            {
+                "FormType": 3,
+                "Value": "braiken"
+            }
+        ]
+    },
+    {
+        "Infinitive": "bring",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "brought"
+            },
+            {
+                "FormType": 3,
+                "Value": "brought"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "приносить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "broung"
+            },
+            {
+                "FormType": 2,
+                "Value": "brote"
+            },
+            {
+                "FormType": 2,
+                "Value": "brouth"
+            },
+            {
+                "FormType": 2,
+                "Value": "bringed"
+            },
+            {
+                "FormType": 3,
+                "Value": "bringen"
+            },
+            {
+                "FormType": 3,
+                "Value": "bringed"
+            },
+            {
+                "FormType": 3,
+                "Value": "broughten"
+            },
+            {
+                "FormType": 3,
+                "Value": "broten"
+            }
+        ]
+    },
+    {
+        "Infinitive": "buy",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "bought"
+            },
+            {
+                "FormType": 3,
+                "Value": "bought"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "покупать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "buyed"
+            },
+            {
+                "FormType": 2,
+                "Value": "bout"
+            },
+            {
+                "FormType": 2,
+                "Value": "bot"
+            },
+            {
+                "FormType": 2,
+                "Value": "bouht"
+            },
+            {
+                "FormType": 3,
+                "Value": "buyen"
+            },
+            {
+                "FormType": 3,
+                "Value": "boughten"
+            },
+            {
+                "FormType": 3,
+                "Value": "boten"
+            },
+            {
+                "FormType": 3,
+                "Value": "baught"
+            }
+        ]
+    },
+    {
+        "Infinitive": "catch",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "caught"
+            },
+            {
+                "FormType": 3,
+                "Value": "caught"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "ловить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "сought"
+            },
+            {
+                "FormType": 2,
+                "Value": "сode"
+            },
+            {
+                "FormType": 2,
+                "Value": "catched"
+            },
+            {
+                "FormType": 2,
+                "Value": "cut"
+            },
+            {
+                "FormType": 3,
+                "Value": "cought"
+            },
+            {
+                "FormType": 3,
+                "Value": "catchen"
+            },
+            {
+                "FormType": 3,
+                "Value": "cote"
+            },
+            {
+                "FormType": 3,
+                "Value": "coat"
+            }
+        ]
+    },
+    {
+        "Infinitive": "come",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "came"
+            },
+            {
+                "FormType": 3,
+                "Value": "come"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "приходить, приезжать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "comed"
+            },
+            {
+                "FormType": 2,
+                "Value": "caim"
+            },
+            {
+                "FormType": 2,
+                "Value": "ceim"
+            },
+            {
+                "FormType": 2,
+                "Value": "went"
+            },
+            {
+                "FormType": 3,
+                "Value": "camen"
+            },
+            {
+                "FormType": 3,
+                "Value": "comen"
+            },
+            {
+                "FormType": 3,
+                "Value": "came"
+            },
+            {
+                "FormType": 3,
+                "Value": "com"
+            }
+        ]
+    },
+    {
+        "Infinitive": "do",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "did"
+            },
+            {
+                "FormType": 3,
+                "Value": "done"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "делать, выполнять"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "died"
+            },
+            {
+                "FormType": 2,
+                "Value": "deed"
+            },
+            {
+                "FormType": 2,
+                "Value": "dide"
+            },
+            {
+                "FormType": 2,
+                "Value": "dude"
+            },
+            {
+                "FormType": 3,
+                "Value": "diden"
+            },
+            {
+                "FormType": 3,
+                "Value": "doing"
+            },
+            {
+                "FormType": 3,
+                "Value": "dune"
+            },
+            {
+                "FormType": 3,
+                "Value": "dane"
+            }
+        ]
+    },
+    {
+        "Infinitive": "drink",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "drank"
+            },
+            {
+                "FormType": 3,
+                "Value": "drunk"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "пить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "drinked"
+            },
+            {
+                "FormType": 2,
+                "Value": "drenk"
+            },
+            {
+                "FormType": 2,
+                "Value": "drunk"
+            },
+            {
+                "FormType": 2,
+                "Value": "dreank"
+            },
+            {
+                "FormType": 3,
+                "Value": "drank"
+            },
+            {
+                "FormType": 3,
+                "Value": "drunken"
+            },
+            {
+                "FormType": 3,
+                "Value": "drinken"
+            },
+            {
+                "FormType": 3,
+                "Value": "drinking"
+            }
+        ]
+    },
+    {
+        "Infinitive": "drive",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "drove"
+            },
+            {
+                "FormType": 3,
+                "Value": "driven"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "ехать, водить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "drived"
+            },
+            {
+                "FormType": 2,
+                "Value": "drave"
+            },
+            {
+                "FormType": 2,
+                "Value": "drouve"
+            },
+            {
+                "FormType": 2,
+                "Value": "drauve"
+            },
+            {
+                "FormType": 3,
+                "Value": "driving"
+            },
+            {
+                "FormType": 3,
+                "Value": "dreeven"
+            },
+            {
+                "FormType": 3,
+                "Value": "dreaven"
+            },
+            {
+                "FormType": 3,
+                "Value": "droven"
+            }
+        ]
+    },
+    {
+        "Infinitive": "eat",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "ate"
+            },
+            {
+                "FormType": 3,
+                "Value": "eaten"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "есть"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "eated"
+            },
+            {
+                "FormType": 2,
+                "Value": "eight"
+            },
+            {
+                "FormType": 2,
+                "Value": "eit"
+            },
+            {
+                "FormType": 2,
+                "Value": "ait"
+            },
+            {
+                "FormType": 3,
+                "Value": "eatened"
+            },
+            {
+                "FormType": 3,
+                "Value": "eten"
+            },
+            {
+                "FormType": 3,
+                "Value": "ated"
+            },
+            {
+                "FormType": 3,
+                "Value": "ethan"
+            }
+        ]
+    },
+    {
+        "Infinitive": "fall",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "fell"
+            },
+            {
+                "FormType": 3,
+                "Value": "fallen"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "падать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "felled"
+            },
+            {
+                "FormType": 2,
+                "Value": "falled"
+            },
+            {
+                "FormType": 2,
+                "Value": "fault"
+            },
+            {
+                "FormType": 2,
+                "Value": "feel"
+            },
+            {
+                "FormType": 3,
+                "Value": "fellen"
+            },
+            {
+                "FormType": 3,
+                "Value": "follen"
+            },
+            {
+                "FormType": 3,
+                "Value": "feelen"
+            },
+            {
+                "FormType": 3,
+                "Value": "fault"
+            }
+        ]
+    },
+    {
+        "Infinitive": "find",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "found"
+            },
+            {
+                "FormType": 3,
+                "Value": "found"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "находить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "finded"
+            },
+            {
+                "FormType": 2,
+                "Value": "faund"
+            },
+            {
+                "FormType": 2,
+                "Value": "fund"
+            },
+            {
+                "FormType": 2,
+                "Value": "fint"
+            },
+            {
+                "FormType": 3,
+                "Value": "finden"
+            },
+            {
+                "FormType": 3,
+                "Value": "faund"
+            },
+            {
+                "FormType": 3,
+                "Value": "founden"
+            },
+            {
+                "FormType": 3,
+                "Value": "fond"
+            }
+        ]
+    },
+    {
+        "Infinitive": "get (Brit.) ",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "got"
+            },
+            {
+                "FormType": 3,
+                "Value": "got"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "получать, брать, становиться, добираться"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "gought"
+            },
+            {
+                "FormType": 2,
+                "Value": "god"
+            },
+            {
+                "FormType": 2,
+                "Value": "gotted"
+            },
+            {
+                "FormType": 2,
+                "Value": "gut"
+            },
+            {
+                "FormType": 3,
+                "Value": "gought"
+            },
+            {
+                "FormType": 3,
+                "Value": "goten"
+            },
+            {
+                "FormType": 3,
+                "Value": "gettin"
+            },
+            {
+                "FormType": 3,
+                "Value": "goat"
+            }
+        ]
+    },
+    {
+        "Infinitive": "get (Amer.)",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "got"
+            },
+            {
+                "FormType": 3,
+                "Value": "gotten"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "получать, брать, становиться, добираться"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "gought"
+            },
+            {
+                "FormType": 2,
+                "Value": "god"
+            },
+            {
+                "FormType": 2,
+                "Value": "gotted"
+            },
+            {
+                "FormType": 2,
+                "Value": "gut"
+            },
+            {
+                "FormType": 3,
+                "Value": "goten"
+            },
+            {
+                "FormType": 3,
+                "Value": "gutten"
+            },
+            {
+                "FormType": 3,
+                "Value": "gatten"
+            },
+            {
+                "FormType": 3,
+                "Value": "getten"
+            }
+        ]
+    },
+    {
+        "Infinitive": "give",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "gave"
+            },
+            {
+                "FormType": 3,
+                "Value": "given"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "давать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "gaved"
+            },
+            {
+                "FormType": 2,
+                "Value": "gived"
+            },
+            {
+                "FormType": 2,
+                "Value": "gaive"
+            },
+            {
+                "FormType": 2,
+                "Value": "gove"
+            },
+            {
+                "FormType": 3,
+                "Value": "giving"
+            },
+            {
+                "FormType": 3,
+                "Value": "gaven"
+            },
+            {
+                "FormType": 3,
+                "Value": "gaive"
+            },
+            {
+                "FormType": 3,
+                "Value": "gouven"
+            }
+        ]
+    },
+    {
+        "Infinitive": "go",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "went"
+            },
+            {
+                "FormType": 3,
+                "Value": "gone"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "идти"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "goned"
+            },
+            {
+                "FormType": 2,
+                "Value": "gun"
+            },
+            {
+                "FormType": 2,
+                "Value": "gain"
+            },
+            {
+                "FormType": 2,
+                "Value": "gin"
+            },
+            {
+                "FormType": 3,
+                "Value": "gonen"
+            },
+            {
+                "FormType": 3,
+                "Value": "gane"
+            },
+            {
+                "FormType": 3,
+                "Value": "going"
+            },
+            {
+                "FormType": 3,
+                "Value": "gonna"
+            }
+        ]
+    },
+    {
+        "Infinitive": "have",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "had"
+            },
+            {
+                "FormType": 3,
+                "Value": "had"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "иметь, обладать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "hat"
+            },
+            {
+                "FormType": 2,
+                "Value": "haved"
+            },
+            {
+                "FormType": 2,
+                "Value": "hut"
+            },
+            {
+                "FormType": 2,
+                "Value": "hed"
+            },
+            {
+                "FormType": 3,
+                "Value": "haven"
+            },
+            {
+                "FormType": 3,
+                "Value": "head"
+            },
+            {
+                "FormType": 3,
+                "Value": "haden"
+            },
+            {
+                "FormType": 3,
+                "Value": "hate"
+            }
+        ]
+    },
+    {
+        "Infinitive": "know",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "knew"
+            },
+            {
+                "FormType": 3,
+                "Value": "known"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "знать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "knowed"
+            },
+            {
+                "FormType": 2,
+                "Value": "knev"
+            },
+            {
+                "FormType": 2,
+                "Value": "knue"
+            },
+            {
+                "FormType": 2,
+                "Value": "knewn"
+            },
+            {
+                "FormType": 3,
+                "Value": "knowen"
+            },
+            {
+                "FormType": 3,
+                "Value": "knawn"
+            },
+            {
+                "FormType": 3,
+                "Value": "knewen"
+            },
+            {
+                "FormType": 3,
+                "Value": "knoun"
+            }
+        ]
+    },
+    {
+        "Infinitive": "make",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "made"
+            },
+            {
+                "FormType": 3,
+                "Value": "made"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "делать, производить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "maked"
+            },
+            {
+                "FormType": 2,
+                "Value": "mate"
+            },
+            {
+                "FormType": 2,
+                "Value": "maid"
+            },
+            {
+                "FormType": 2,
+                "Value": "mood"
+            },
+            {
+                "FormType": 3,
+                "Value": "maden"
+            },
+            {
+                "FormType": 3,
+                "Value": "maiden"
+            },
+            {
+                "FormType": 3,
+                "Value": "mad"
+            },
+            {
+                "FormType": 3,
+                "Value": "maken"
+            }
+        ]
+    },
+    {
+        "Infinitive": "run",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "ran"
+            },
+            {
+                "FormType": 3,
+                "Value": "run"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "бегать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "ren"
+            },
+            {
+                "FormType": 2,
+                "Value": "runned"
+            },
+            {
+                "FormType": 2,
+                "Value": "run"
+            },
+            {
+                "FormType": 2,
+                "Value": "rain"
+            },
+            {
+                "FormType": 3,
+                "Value": "rannen"
+            },
+            {
+                "FormType": 3,
+                "Value": "rennen"
+            },
+            {
+                "FormType": 3,
+                "Value": "ron"
+            },
+            {
+                "FormType": 3,
+                "Value": "ruin"
+            }
+        ]
+    },
+    {
+        "Infinitive": "say",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "said"
+            },
+            {
+                "FormType": 3,
+                "Value": "said"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "сказать, говорить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "sought"
+            },
+            {
+                "FormType": 2,
+                "Value": "sayd"
+            },
+            {
+                "FormType": 2,
+                "Value": "sayed"
+            },
+            {
+                "FormType": 2,
+                "Value": "sad"
+            },
+            {
+                "FormType": 3,
+                "Value": "saiden"
+            },
+            {
+                "FormType": 3,
+                "Value": "saien"
+            },
+            {
+                "FormType": 3,
+                "Value": "sayen"
+            },
+            {
+                "FormType": 3,
+                "Value": "sound"
+            }
+        ]
+    },
+    {
+        "Infinitive": "see",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "saw"
+            },
+            {
+                "FormType": 3,
+                "Value": "seen"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "видеть"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "sea"
+            },
+            {
+                "FormType": 2,
+                "Value": "sow"
+            },
+            {
+                "FormType": 2,
+                "Value": "sew"
+            },
+            {
+                "FormType": 2,
+                "Value": "sead"
+            },
+            {
+                "FormType": 3,
+                "Value": "seed"
+            },
+            {
+                "FormType": 3,
+                "Value": "seened"
+            },
+            {
+                "FormType": 3,
+                "Value": "seaned"
+            },
+            {
+                "FormType": 3,
+                "Value": "sean"
+            }
+        ]
+    },
+    {
+        "Infinitive": "take",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "took"
+            },
+            {
+                "FormType": 3,
+                "Value": "taken"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "брать, принимать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "taked"
+            },
+            {
+                "FormType": 2,
+                "Value": "tuke"
+            },
+            {
+                "FormType": 2,
+                "Value": "toock"
+            },
+            {
+                "FormType": 2,
+                "Value": "toke"
+            },
+            {
+                "FormType": 3,
+                "Value": "token"
+            },
+            {
+                "FormType": 3,
+                "Value": "takin"
+            },
+            {
+                "FormType": 3,
+                "Value": "takn"
+            },
+            {
+                "FormType": 3,
+                "Value": "tacken"
+            }
+        ]
+    },
+    {
+        "Infinitive": "teach",
+        "Level": 1,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "taught"
+            },
+            {
+                "FormType": 3,
+                "Value": "taught"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "учить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "tought"
+            },
+            {
+                "FormType": 2,
+                "Value": "tot"
+            },
+            {
+                "FormType": 2,
+                "Value": "ted"
+            },
+            {
+                "FormType": 2,
+                "Value": "teached"
+            },
+            {
+                "FormType": 3,
+                "Value": "taughten"
+            },
+            {
+                "FormType": 3,
+                "Value": "teachen"
+            },
+            {
+                "FormType": 3,
+                "Value": "tought"
+            },
+            {
+                "FormType": 3,
+                "Value": "tough"
+            }
+        ]
+    },
+    {
+        "Infinitive": "build",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "built"
+            },
+            {
+                "FormType": 3,
+                "Value": "built"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "строить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "boulght"
+            },
+            {
+                "FormType": 2,
+                "Value": "builded"
+            },
+            {
+                "FormType": 2,
+                "Value": "bold"
+            },
+            {
+                "FormType": 2,
+                "Value": "bilt"
+            },
+            {
+                "FormType": 3,
+                "Value": "builten"
+            },
+            {
+                "FormType": 3,
+                "Value": "builded"
+            },
+            {
+                "FormType": 3,
+                "Value": "build"
+            },
+            {
+                "FormType": 3,
+                "Value": "belt"
+            }
+        ]
+    },
+    {
+        "Infinitive": "choose",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "chose"
+            },
+            {
+                "FormType": 3,
+                "Value": "chosen"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "выбирать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "cheese"
+            },
+            {
+                "FormType": 2,
+                "Value": "chase"
+            },
+            {
+                "FormType": 2,
+                "Value": "chosed"
+            },
+            {
+                "FormType": 2,
+                "Value": "chouse"
+            },
+            {
+                "FormType": 3,
+                "Value": "cheesen"
+            },
+            {
+                "FormType": 3,
+                "Value": "choosen"
+            },
+            {
+                "FormType": 3,
+                "Value": "chasen"
+            },
+            {
+                "FormType": 3,
+                "Value": "chose"
+            }
+        ]
+    },
+    {
+        "Infinitive": "cost",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "cost"
+            },
+            {
+                "FormType": 3,
+                "Value": "cost"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "стоить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "coast"
+            },
+            {
+                "FormType": 2,
+                "Value": "costed"
+            },
+            {
+                "FormType": 2,
+                "Value": "costs"
+            },
+            {
+                "FormType": 2,
+                "Value": "cast"
+            },
+            {
+                "FormType": 3,
+                "Value": "costen"
+            },
+            {
+                "FormType": 3,
+                "Value": "costed"
+            },
+            {
+                "FormType": 3,
+                "Value": "couse"
+            },
+            {
+                "FormType": 3,
+                "Value": "coused"
+            }
+        ]
+    },
+    {
+        "Infinitive": "cut",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "cut"
+            },
+            {
+                "FormType": 3,
+                "Value": "cut"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "резать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "cote"
+            },
+            {
+                "FormType": 2,
+                "Value": "cutted"
+            },
+            {
+                "FormType": 2,
+                "Value": "coat"
+            },
+            {
+                "FormType": 2,
+                "Value": "cate"
+            },
+            {
+                "FormType": 3,
+                "Value": "cutten"
+            },
+            {
+                "FormType": 3,
+                "Value": "cutting"
+            },
+            {
+                "FormType": 3,
+                "Value": "cought"
+            },
+            {
+                "FormType": 3,
+                "Value": "cat"
+            }
+        ]
+    },
+
+    {
+        "Infinitive": "feel",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "felt"
+            },
+            {
+                "FormType": 3,
+                "Value": "felt"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "чувствовать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "fall"
+            },
+            {
+                "FormType": 2,
+                "Value": "feeled"
+            },
+            {
+                "FormType": 2,
+                "Value": "fell"
+            },
+            {
+                "FormType": 2,
+                "Value": "field"
+            },
+            {
+                "FormType": 3,
+                "Value": "feelen"
+            },
+            {
+                "FormType": 3,
+                "Value": "felten"
+            },
+            {
+                "FormType": 3,
+                "Value": "filth"
+            },
+            {
+                "FormType": 3,
+                "Value": "fool"
+            }
+        ]
+    },
+    {
+        "Infinitive": "fight",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "fought"
+            },
+            {
+                "FormType": 3,
+                "Value": "fought"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "бороться, драться"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "fighted"
+            },
+            {
+                "FormType": 2,
+                "Value": "fit"
+            },
+            {
+                "FormType": 2,
+                "Value": "foll"
+            },
+            {
+                "FormType": 2,
+                "Value": "foughten"
+            },
+            {
+                "FormType": 3,
+                "Value": "faught"
+            },
+            {
+                "FormType": 3,
+                "Value": "fighten"
+            },
+            {
+                "FormType": 3,
+                "Value": "foul"
+            },
+            {
+                "FormType": 3,
+                "Value": "fout"
+            }
+        ]
+    },
+    {
+        "Infinitive": "fly",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "flew"
+            },
+            {
+                "FormType": 3,
+                "Value": "flown"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "летать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "fled"
+            },
+            {
+                "FormType": 2,
+                "Value": "fley"
+            },
+            {
+                "FormType": 2,
+                "Value": "flied"
+            },
+            {
+                "FormType": 2,
+                "Value": "flow"
+            },
+            {
+                "FormType": 3,
+                "Value": "flewn"
+            },
+            {
+                "FormType": 3,
+                "Value": "flowed"
+            },
+            {
+                "FormType": 3,
+                "Value": "flu"
+            },
+            {
+                "FormType": 3,
+                "Value": "flyen"
+            }
+        ]
+    },
+    {
+        "Infinitive": "forget",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "forgot"
+            },
+            {
+                "FormType": 3,
+                "Value": "forgotten"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "забывать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "forgat"
+            },
+            {
+                "FormType": 2,
+                "Value": "forgetted"
+            },
+            {
+                "FormType": 2,
+                "Value": "forgought"
+            },
+            {
+                "FormType": 2,
+                "Value": "forgotten"
+            },
+            {
+                "FormType": 3,
+                "Value": "forgetten"
+            },
+            {
+                "FormType": 3,
+                "Value": "forgot"
+            },
+            {
+                "FormType": 3,
+                "Value": "forgote"
+            },
+            {
+                "FormType": 3,
+                "Value": "forgut"
+            }
+        ]
+    },
+    {
+        "Infinitive": "grow",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "grew"
+            },
+            {
+                "FormType": 3,
+                "Value": "grown"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "расти"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "graw"
+            },
+            {
+                "FormType": 2,
+                "Value": "growed"
+            },
+            {
+                "FormType": 2,
+                "Value": "grown"
+            },
+            {
+                "FormType": 2,
+                "Value": "grue"
+            },
+            {
+                "FormType": 3,
+                "Value": "grewn"
+            },
+            {
+                "FormType": 3,
+                "Value": "ground"
+            },
+            {
+                "FormType": 3,
+                "Value": "growen"
+            },
+            {
+                "FormType": 3,
+                "Value": "groan"
+            }
+        ]
+    },
+    {
+        "Infinitive": "hear",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "heard"
+            },
+            {
+                "FormType": 3,
+                "Value": "heard"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "слышать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "hard"
+            },
+            {
+                "FormType": 2,
+                "Value": "heared"
+            },
+            {
+                "FormType": 2,
+                "Value": "heart"
+            },
+            {
+                "FormType": 2,
+                "Value": "herd"
+            },
+            {
+                "FormType": 3,
+                "Value": "head"
+            },
+            {
+                "FormType": 3,
+                "Value": "heardten"
+            },
+            {
+                "FormType": 3,
+                "Value": "hearen"
+            },
+            {
+                "FormType": 3,
+                "Value": "hurt"
+            }
+        ]
+    },
+    {
+        "Infinitive": "hit",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "hit"
+            },
+            {
+                "FormType": 3,
+                "Value": "hit"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "ударять"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "hat"
+            },
+            {
+                "FormType": 2,
+                "Value": "heat"
+            },
+            {
+                "FormType": 2,
+                "Value": "hitted"
+            },
+            {
+                "FormType": 2,
+                "Value": "hot"
+            },
+            {
+                "FormType": 3,
+                "Value": "height"
+            },
+            {
+                "FormType": 3,
+                "Value": "hid"
+            },
+            {
+                "FormType": 3,
+                "Value": "hiten"
+            },
+            {
+                "FormType": 3,
+                "Value": "hitten"
+            }
+        ]
+    },
+    {
+        "Infinitive": "hold",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "held"
+            },
+            {
+                "FormType": 3,
+                "Value": "held"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "держать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "hald"
+            },
+            {
+                "FormType": 2,
+                "Value": "heled"
+            },
+            {
+                "FormType": 2,
+                "Value": "holded"
+            },
+            {
+                "FormType": 2,
+                "Value": "hole"
+            },
+            {
+                "FormType": 3,
+                "Value": "helden"
+            },
+            {
+                "FormType": 3,
+                "Value": "holden"
+            },
+            {
+                "FormType": 3,
+                "Value": "holed"
+            },
+            {
+                "FormType": 3,
+                "Value": "holt"
+            }
+        ]
+    },
+    {
+        "Infinitive": "hurt",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "hurt"
+            },
+            {
+                "FormType": 3,
+                "Value": "hurt"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "ранить, причинять боль"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "hard"
+            },
+            {
+                "FormType": 2,
+                "Value": "hart"
+            },
+            {
+                "FormType": 2,
+                "Value": "heart"
+            },
+            {
+                "FormType": 2,
+                "Value": "hurted"
+            },
+            {
+                "FormType": 3,
+                "Value": "heard"
+            },
+            {
+                "FormType": 3,
+                "Value": "hurten"
+            },
+            {
+                "FormType": 3,
+                "Value": "hurting"
+            },
+            {
+                "FormType": 3,
+                "Value": "hut"
+            }
+        ]
+    },
+    {
+        "Infinitive": "keep",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "kept"
+            },
+            {
+                "FormType": 3,
+                "Value": "kept"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "хранить, держать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "keeped"
+            },
+            {
+                "FormType": 2,
+                "Value": "kipt"
+            },
+            {
+                "FormType": 2,
+                "Value": "koopt"
+            },
+            {
+                "FormType": 2,
+                "Value": "kopt"
+            },
+            {
+                "FormType": 3,
+                "Value": "cape"
+            },
+            {
+                "FormType": 3,
+                "Value": "keepen"
+            },
+            {
+                "FormType": 3,
+                "Value": "kepten"
+            },
+            {
+                "FormType": 3,
+                "Value": "zipped"
+            }
+        ]
+    },
+    {
+        "Infinitive": "leave",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "left"
+            },
+            {
+                "FormType": 3,
+                "Value": "left"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "покидать, оставлять"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "leaf"
+            },
+            {
+                "FormType": 2,
+                "Value": "leat"
+            },
+            {
+                "FormType": 2,
+                "Value": "leaved"
+            },
+            {
+                "FormType": 2,
+                "Value": "loof"
+            },
+            {
+                "FormType": 3,
+                "Value": "leaven"
+            },
+            {
+                "FormType": 3,
+                "Value": "leften"
+            },
+            {
+                "FormType": 3,
+                "Value": "lift"
+            },
+            {
+                "FormType": 3,
+                "Value": "live"
+            }
+        ]
+    },
+    {
+        "Infinitive": "let",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "let"
+            },
+            {
+                "FormType": 3,
+                "Value": "let"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "позволять"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "late"
+            },
+            {
+                "FormType": 3,
+                "Value": "leat"
+            },
+            {
+                "FormType": 3,
+                "Value": "leten"
+            },
+            {
+                "FormType": 2,
+                "Value": "leted"
+            },
+            {
+                "FormType": 2,
+                "Value": "lets"
+            },
+            {
+                "FormType": 3,
+                "Value": "letted"
+            },
+            {
+                "FormType": 3,
+                "Value": "letten"
+            },
+            {
+                "FormType": 2,
+                "Value": "lit"
+            }
+        ]
+    },
+    {
+        "Infinitive": "lose",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "lost"
+            },
+            {
+                "FormType": 3,
+                "Value": "lost"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "терять"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "loosed"
+            },
+            {
+                "FormType": 3,
+                "Value": "loosen"
+            },
+            {
+                "FormType": 2,
+                "Value": "losed"
+            },
+            {
+                "FormType": 3,
+                "Value": "losen"
+            },
+            {
+                "FormType": 2,
+                "Value": "loss"
+            },
+            {
+                "FormType": 3,
+                "Value": "losted"
+            },
+            {
+                "FormType": 3,
+                "Value": "losten"
+            },
+            {
+                "FormType": 2,
+                "Value": "luce"
+            }
+        ]
+    },
+    {
+        "Infinitive": "meet",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "met"
+            },
+            {
+                "FormType": 3,
+                "Value": "met"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "встречать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "mat"
+            },
+            {
+                "FormType": 2,
+                "Value": "meat"
+            },
+            {
+                "FormType": 3,
+                "Value": "meeten"
+            },
+            {
+                "FormType": 2,
+                "Value": "meeted"
+            },
+            {
+                "FormType": 3,
+                "Value": "meten"
+            },
+            {
+                "FormType": 3,
+                "Value": "metted"
+            },
+            {
+                "FormType": 2,
+                "Value": "mit"
+            },
+            {
+                "FormType": 3,
+                "Value": "moat"
+            }
+        ]
+    },
+    {
+        "Infinitive": "pay",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "paid"
+            },
+            {
+                "FormType": 3,
+                "Value": "paid"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "платить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "pad"
+            },
+            {
+                "FormType": 3,
+                "Value": "paiden"
+            },
+            {
+                "FormType": 3,
+                "Value": "payen"
+            },
+            {
+                "FormType": 2,
+                "Value": "payed"
+            },
+            {
+                "FormType": 2,
+                "Value": "payd"
+            },
+            {
+                "FormType": 3,
+                "Value": "peid"
+            },
+            {
+                "FormType": 2,
+                "Value": "pie"
+            },
+            {
+                "FormType": 3,
+                "Value": "pond"
+            }
+        ]
+    },
+    {
+        "Infinitive": "put",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "put"
+            },
+            {
+                "FormType": 3,
+                "Value": "put"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "класть, ставить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "pat"
+            },
+            {
+                "FormType": 2,
+                "Value": "pet"
+            },
+            {
+                "FormType": 3,
+                "Value": "pought"
+            },
+            {
+                "FormType": 2,
+                "Value": "pouted"
+            },
+            {
+                "FormType": 3,
+                "Value": "puten"
+            },
+            {
+                "FormType": 2,
+                "Value": "puted"
+            },
+            {
+                "FormType": 3,
+                "Value": "puted"
+            },
+            {
+                "FormType": 3,
+                "Value": "putten"
+            }
+        ]
+    },
+    {
+        "Infinitive": "read",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "read"
+            },
+            {
+                "FormType": 3,
+                "Value": "read"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "читать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "rad"
+            },
+            {
+                "FormType": 2,
+                "Value": "readed"
+            },
+            {
+                "FormType": 3,
+                "Value": "readen"
+            },
+            {
+                "FormType": 3,
+                "Value": "readden"
+            },
+            {
+                "FormType": 2,
+                "Value": "red"
+            },
+            {
+                "FormType": 2,
+                "Value": "redd"
+            },
+            {
+                "FormType": 3,
+                "Value": "riddle"
+            },
+            {
+                "FormType": 3,
+                "Value": "rode"
+            }
+        ]
+    },
+    {
+        "Infinitive": "ring",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "rang"
+            },
+            {
+                "FormType": 3,
+                "Value": "rung"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "звонить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 3,
+                "Value": "rang"
+            },
+            {
+                "FormType": 2,
+                "Value": "rangan"
+            },
+            {
+                "FormType": 3,
+                "Value": "ringen"
+            },
+            {
+                "FormType": 2,
+                "Value": "ringed"
+            },
+            {
+                "FormType": 3,
+                "Value": "rink"
+            },
+            {
+                "FormType": 2,
+                "Value": "rong"
+            },
+            {
+                "FormType": 2,
+                "Value": "rung"
+            },
+            {
+                "FormType": 3,
+                "Value": "rungen"
+            }
+        ]
+    },
+    {
+        "Infinitive": "sell",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "sold"
+            },
+            {
+                "FormType": 3,
+                "Value": "sold"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "продавать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 3,
+                "Value": "cell"
+            },
+            {
+                "FormType": 2,
+                "Value": "celled"
+            },
+            {
+                "FormType": 2,
+                "Value": "sald"
+            },
+            {
+                "FormType": 3,
+                "Value": "sallen"
+            },
+            {
+                "FormType": 2,
+                "Value": "selled"
+            },
+            {
+                "FormType": 3,
+                "Value": "sellen"
+            },
+            {
+                "FormType": 2,
+                "Value": "sild"
+            },
+            {
+                "FormType": 3,
+                "Value": "solden"
+            }
+        ]
+    },
+    {
+        "Infinitive": "send",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "sent"
+            },
+            {
+                "FormType": 3,
+                "Value": "sent"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "посылать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 3,
+                "Value": "cent"
+            },
+            {
+                "FormType": 2,
+                "Value": "sand"
+            },
+            {
+                "FormType": 3,
+                "Value": "senden"
+            },
+            {
+                "FormType": 2,
+                "Value": "sended"
+            },
+            {
+                "FormType": 3,
+                "Value": "senten"
+            },
+            {
+                "FormType": 2,
+                "Value": "sound"
+            },
+            {
+                "FormType": 3,
+                "Value": "sounden"
+            },
+            {
+                "FormType": 2,
+                "Value": "sunt"
+            }
+        ]
+    },
+    {
+        "Infinitive": "sit",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "sat"
+            },
+            {
+                "FormType": 3,
+                "Value": "sat"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "сидеть"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 3,
+                "Value": "saten"
+            },
+            {
+                "FormType": 2,
+                "Value": "seat"
+            },
+            {
+                "FormType": 2,
+                "Value": "set"
+            },
+            {
+                "FormType": 2,
+                "Value": "sited"
+            },
+            {
+                "FormType": 2,
+                "Value": "sitted"
+            },
+            {
+                "FormType": 3,
+                "Value": "sitten"
+            },
+            {
+                "FormType": 3,
+                "Value": "sought"
+            },
+            {
+                "FormType": 3,
+                "Value": "suit"
+            }
+        ]
+    },
+    {
+        "Infinitive": "sleep",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "slept"
+            },
+            {
+                "FormType": 3,
+                "Value": "slept"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "спать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "slapt"
+            },
+            {
+                "FormType": 3,
+                "Value": "sleepen"
+            },
+            {
+                "FormType": 2,
+                "Value": "sleeped"
+            },
+            {
+                "FormType": 3,
+                "Value": "slepten"
+            },
+            {
+                "FormType": 2,
+                "Value": "slipt"
+            },
+            {
+                "FormType": 3,
+                "Value": "slip"
+            },
+            {
+                "FormType": 3,
+                "Value": "slope"
+            },
+            {
+                "FormType": 2,
+                "Value": "slopt"
+            }
+        ]
+    },
+    {
+        "Infinitive": "write",
+        "Level": 2,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "wrote"
+            },
+            {
+                "FormType": 3,
+                "Value": "written"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "писать"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "right"
+            },
+            {
+                "FormType": 3,
+                "Value": "riten"
+            },
+            {
+                "FormType": 3,
+                "Value": "writeen"
+            },
+            {
+                "FormType": 2,
+                "Value": "writed"
+            },
+            {
+                "FormType": 2,
+                "Value": "written"
+            },
+            {
+                "FormType": 2,
+                "Value": "wroat"
+            },
+            {
+                "FormType": 3,
+                "Value": "wroten"
+            },
+            {
+                "FormType": 3,
+                "Value": "wrotte"
+            }
+        ]
+    },
+    {
+        "Infinitive": "wear",
+        "Level": 3,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "wore"
+            },
+            {
+                "FormType": 3,
+                "Value": "worn"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "носить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "wour"
+            },
+            {
+                "FormType": 2,
+                "Value": "weared"
+            },
+            {
+                "FormType": 2,
+                "Value": "weird"
+            },
+            {
+                "FormType": 2,
+                "Value": "warn"
+            },
+            {
+                "FormType": 3,
+                "Value": "warn"
+            },
+            {
+                "FormType": 3,
+                "Value": "woren"
+            },
+            {
+                "FormType": 3,
+                "Value": "warnen"
+            },
+            {
+                "FormType": 3,
+                "Value": "warner"
+            }
+        ]
+    }
+]

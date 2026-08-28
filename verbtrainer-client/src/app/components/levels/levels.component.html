@@ -1,0 +1,19 @@
+<div class="levels-container">
+  <h1 class="menu-title">Выберите уровень английского</h1>
+  
+  <div class="levels-list">
+    @for (level of levels; track level.id) {
+      <button 
+        class="level-btn" 
+        [class.locked]="isLocked(level.id)"
+        [disabled]="isLocked(level.id)"
+        (click)="selectLevel(level.id)">
+        
+        <span class="level-name">{{ level.name }}</span>
+        @if (isLocked(level.id)) {
+          <span class="lock-icon">🔒</span>
+        }
+      </button>
+    }
+  </div>
+</div>

@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 100dvh; */
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /*Защита шрифтов от увеличения при перевороте */
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  overscroll-behavior: none;
+}
+
+/* Корневой контейнер*/
+app-root {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  width: 100%;
+}
+
+/* Универсальные правила кликов и боксовой модели */
+/* * в CSS означает абсолютно все элементы на странице */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  /* margin и padding тут добавлены ради margin bottom для карточки 0908 */
+  margin: 0;
+  padding: 0;
+}
+
+/* Короткие переменные безопасных зон (safe area)
+:root {
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+} */

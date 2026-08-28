@@ -1,0 +1,387 @@
+.trainer-container {
+  font-family: 'Segoe UI', -apple-system, Roboto, sans-serif;
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: clamp(10px, 3vh, 24px);
+  padding-top: calc(env(safe-area-inset-top, 0px) + clamp(8px, 2vh, 16px));
+  /* увеличивает базовое расстояние под кнопкой проверить */
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + clamp(16px, 2vh, 24px));
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* =верхний элемент= */
+
+.top-header-zone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+
+.progress-container {
+  flex-grow: 1;
+  height: clamp(12px, 1.5vh, 16px);
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #2563eb;
+  border-radius: 12px;
+  transition: width 0.3s ease;
+}
+
+.lives-container {
+  display: flex;
+  gap: 6px;
+  user-select: none;
+}
+
+.heart-icon {
+  font-size: clamp(16px, 2vh, 22px);
+  transition: all 0.3s ease;
+}
+
+.heart-lost {
+  opacity: 0.15;
+  filter: grayscale(1);
+  transform: scale(0.8);
+}
+
+/* =карточка= */
+
+.quiz-card {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #ffffff;
+  border: 2px solid #e5e7eb;
+  border-bottom: 5px solid #e5e7eb;
+  border-radius: 16px;
+  padding: clamp(8px, 1.5vh, 16px);
+  height: auto;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.level-badge {
+  display: inline-block;
+  background-color: #eff6ff;
+  color: #2563eb;
+  font-weight: bold;
+  padding: 4px 14px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  /* в середине указывается предпочтительное целевое значение, к которому будет стремиться отступ, 
+  пока не упрется в заданные рамки */
+  /* 4 - минимальная граница, 
+  0,8 идеальное значение, рассчитывается автоматически (% от высоты экрана)
+  10 максимальная, больше этого отступ не вырастет */
+  margin-bottom: clamp(4px, 0.8vh, 10px); 
+  flex-shrink: 1;
+  font-size: clamp(10px, 1.5vh, 12px);
+  padding: clamp(2px, 0.5vh, 4px) clamp(8px, 1.5vw, 14px);
+}
+
+.infinitive {
+  font-family: 'Segoe UI', -apple-system, Roboto, sans-serif;
+  font-size: clamp(20px, 5.5vw, 36px);
+  font-weight: bold;
+  margin-bottom: clamp(4px, 0.8vh, 8px);
+  color: #1f2937;
+}
+
+.translation {
+  color: #6b7280;
+  font-size: clamp(12px, 4vw, 18px);
+  margin-bottom: clamp(8px, 1vh, 16px);
+}
+
+/* серая плашка форм */
+
+.forms-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* это расстояние между формами -- неадаптивно! */
+  gap: 8px;
+  /* влияет на размер карточки! */
+  padding: clamp(10px, 2vh, 14px) 12px; /* ! последние 12px это отступ по бокам ! */
+  border-radius: 14px;
+  background-color: #f8fafc;
+  border: 1px solid #f1f5f9;
+  font-size: clamp(16px, 3.5vw, 18px);
+  font-weight: bold;
+  /* Разрешаем элементам падать на новую строку, если им тесно */
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* ОБЩИЕ БАЗОВЫЕ СТИЛИ ДЛЯ ВСЕХ СЛОТОВ ГЛАГОЛОВ */
+.regular-form,
+.missing-form-box {
+  font-family: inherit;
+  text-align: center;
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 10px;
+  /* Перенос длинных слов по слогам/буквам, чтобы точно ничего не уехало за экран айфона */
+  /* word-break: break-word;  */
+  /* hyphens: auto; */
+  min-width: clamp(100px, 32%, 160px); 
+  /* Разрешаем плашкам расти дальше, если слово очень длинное */
+  /* flex-grow: 1;  */
+}
+
+/* УНИКАЛЬНЫЕ СТИЛИ ОБЫЧНОЙ ФОРМЫ */
+.regular-form {
+  color: #374151;
+}
+
+/* контейнер, в котором лежат формы */
+.form-slot {
+  flex: 1 1 min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  /* Защита от распирания контейнера длинным словом */
+  /*  word-break: break-all; ломает слово на несколько частей если оно не влезает */
+}
+
+/*  УНИКАЛЬНЫЕ СТИЛИ КРАСИВОГО ПОЛЯ ПРОПУСКА (КНОПКА С ВОПРОСОМ)  */
+.missing-form-box {
+  background-color: #e2e8f0;
+  color: #64748b;
+  /* этот padding отвечает за высоту темно серой плашки с ? */
+  padding: 4px 14px;
+  border-radius: 8px;
+  min-width: 90px;
+  transition: all 0.2s ease;
+  font-weight: 800;
+}
+
+/* Когда слово подставилось - оно загорается синим индиго */
+.missing-form-box.filled {
+  background-color: #dbeafe;
+  color: #2563eb;
+  box-shadow: inset 0 0 0 1px #bfdbfe;
+}
+
+/* добавлено 2807 отмена выбора */
+/* .missing-form-box.clickable {
+  cursor: pointer;
+} */
+
+.missing-form-box.clickable:active {
+  transform: scale(0.96);
+}
+
+.options-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: clamp(8px, 1.5vh, 14px);
+  width: 100%;
+  /* flex-grow: 1; 26 07 опция, из за которой варианты нажимались вместе с "продожить"*/
+  flex-grow: 0;
+  margin: 0;
+}
+
+/* Кнопки: текст по центру */
+.option-btn {
+  font-family: inherit;
+  width: 100%;
+  text-align: center;
+  padding: clamp(8px, 1.8vh, 16px) 20px;
+  font-size: clamp(14px, 2vh, 18px);
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #374151;
+  border: 2px solid #e5e7eb;
+  border-bottom: 5px solid #e5e7eb;
+  border-radius: 14px;
+  transition: all 0.1s ease;
+}
+
+.option-btn.selected {
+  background-color: #eff6ff;
+  border-color: #2563eb;
+  border-bottom: 5px solid #2563eb;
+  color: #2563eb;
+}
+
+/* Эффект прожимания */
+.option-btn:active:not(.selected):not(:disabled) {
+  transform: translateY(3px);
+}
+
+/* НИЖНЯЯ ЗОНА: Кнопка проверить */
+.action-block {
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.check-btn {
+  /* font-family: inherit; */
+  width: 100%;
+  padding: clamp(12px, 2vh, 18px) 20px;
+  font-size: clamp(16px, 2vh, 18px);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  /* если не поставить 5px, то по умолчанию неявно будет 3px */
+  border-bottom: 5px solid #1d4ed8;
+  border-radius: 14px;
+  transition: all 0.1s ease;
+}
+
+.check-btn:not([disabled]):active {
+  transform: translateY(3px);
+}
+
+.check-btn:disabled {
+  background-color: #e5e7eb;
+  /* border-bottom: 4px solid #cccccc; нужно было поставить 5px, как и */
+  /* в check btn, тогда при активации кнопки пропадут паразитные сдвиги */
+  border-bottom: 5px solid #cccccc;
+  color: #afafaf;
+  cursor: not-allowed;
+}
+
+/* тут панель еще невидимая! */
+/* выдвигающаяся шторка */
+.result-panel {
+  position: fixed;
+  /* как только перешел на абсолют сразу появился скролл и шторка стала видна всегда!!! */
+  bottom: 0;
+  left: 50%;
+  /* Начальное скрытое положение шторки под экраном 100% это "полностью спрятано"! */
+  transform: translate(-50%, 100%);
+  width: 100%;
+  max-width: 450px;
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + clamp(16px, 2vh, 24px));
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: clamp(8px, 2vh, 16px);
+  gap: clamp(12px, 2.5vh, 20px);
+  min-height: auto;
+  /* Максимальная высота — не более 45% экрана, чтобы не перекрыть весь квиз */
+  max-height: 45dvh;
+  display: flex;
+  /* 29 07 после этой настройки надпись и кнопка расположились друг под другом */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 1;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08);
+  border-top-left-radius: 20px;
+  /* Закругляем верхние углы шторки для красоты */
+  border-top-right-radius: 20px;
+}
+
+.result-panel.visible {
+  transform: translate(-50%, 0);
+}
+
+.result-panel.correct {
+  background-color: #dcfce7;
+  border: 2px solid #bbf7d0;
+  border-bottom: none;
+  color: #166534;
+}
+
+.result-panel.wrong {
+  background-color: #fee2e2;
+  border: 2px solid #fecaca;
+  border-bottom: none;
+  color: #991b1b;
+}
+
+.result-text h2 {
+  font-size: clamp(18px, 2.5vh, 20px);
+  font-weight: bold;
+}
+
+.result-text p {
+  font-size: clamp(13px, 1.8vh, 15px);
+}
+
+.next-btn {
+  width: 100%;
+  padding: clamp(12px, 2vh, 18px) 20px;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: clamp(16px, 2vh, 18px);
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: all 0.1s ease;
+}
+
+.correct .next-btn {
+  background-color: #22c55e;
+  border-bottom: 5px solid #16a34a;
+  color: white;
+}
+
+.wrong .next-btn {
+  background-color: #ef4444;
+  border-bottom: 5px solid #dc2626;
+  color: white;
+}
+
+/* ЭФФЕКТ ПРОЖИМАНИЯ ПРИ НАЖАТИИ */
+.next-btn:active {
+  transform: translateY(3px);
+}
+
+/* СТИЛИ ДЛЯ ЭКРАНОВ ЗАВЕРШЕНИЯ */
+.end-screen {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  gap: clamp(12px, 2vh, 18px); 
+}
+
+/* .end-screen .check-btn + .check-btn {
+    margin-top: clamp(10px, 1.8vh, 16px);
+} */
+
+.icon-celebrate {
+  font-size: clamp(48px, 10vh, 64px);
+  margin-bottom: 20px;
+}
+
+.end-screen h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.end-screen p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 40px;
+}

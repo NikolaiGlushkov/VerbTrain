@@ -1,0 +1,108 @@
+<div class="trainer-container">
+
+  @if (!isLevelFinished() && !isGameOver()) {
+  <!-- Верхняя зона: Прогресс-бар и Жизни -->
+  <div class="top-header-zone">
+    <div class="progress-container">
+      <div class="progress-bar" [style.width.%]="(currentVerbIndex() / totalVerbs()) * 100"></div>
+    </div>
+
+    <div class="lives-container">
+      @for (heart of [1, 2, 3]; track heart) {
+      <span class="heart-icon" [class.heart-lost]="lives() < heart">❤️</span>
+      }
+    </div>
+  </div>
+
+  <!-- Карточка вопроса -->
+  <div class="quiz-card">
+    <!-- Динамический уровень языка -->
+    <span class="level-badge">{{ getLevelName() }}</span>
+    <h1 class="infinitive">{{ currentVerb()?.infinitive }}</h1>
+    <p class="translation">{{ currentVerb()?.translation }}</p>
+
+    <!-- Интерактивная строка форм  -->
+    <div class="forms-display">
+
+      <!-- ЛЕВАЯ ФОРМА (V2) -->
+      <div class="form-slot">
+        @if (testingFormNumber() === 2) {
+        <span class="missing-form-box" [class.filled]="selectedAnswer()" [class.clickable]="selectedAnswer()"
+          (click)="onClearAnswer()">
+          {{ selectedAnswer() || '?' }}
+        </span>
+        } @else {
+        <span class="regular-form">{{ currentVerb()?.form2 }}</span>
+        }
+      </div>
+
+      <!-- ПРАВАЯ ФОРМА (V3) -->
+      <div class="form-slot">
+        @if (testingFormNumber() === 3) {
+        <span class="missing-form-box" [class.filled]="selectedAnswer()" [class.clickable]="selectedAnswer()"
+          (click)="onClearAnswer()">
+          {{ selectedAnswer() || '?' }}
+        </span>
+        } @else {
+        <span class="regular-form">{{ currentVerb()?.form3 }}</span>
+        }
+      </div>
+    </div>
+  </div>
+
+  <!-- Варианты ответа -->
+  <div class="options-block">
+    @for (option of quizOptions(); track $index) {
+    <button class="option-btn" [class.selected]="selectedAnswer() === option" [disabled]="isAnswerChecked()"
+      (click)="onSelectOption(option)">
+      {{ option }}
+    </button>
+    }
+  </div>
+  <!-- КНОПКА ПРОВЕРКИ  -->
+  <div class="action-block">
+    <button class="check-btn" [disabled]="!selectedAnswer()" (click)="onCheckAnswer()">
+      {{ t('check') }}
+    </button>
+  </div>
+  <!-- Выезжающая шторка  -->
+  <div class="result-panel" 
+       [class.visible]="isAnswerChecked()" 
+       [class.correct]="isCurrentAnswerCorrect()"
+       [class.wrong]="!isCurrentAnswerCorrect()">
+
+    <div class="result-text">
+      @if (isCurrentAnswerCorrect()) {
+      <h2>{{ t('awesome') }}</h2>
+      <p>{{ t('correct_desc') }}</p>
+      } @else {
+      <h2>{{ t('error') }}</h2>
+      <p>{{ t('correct_was') }}: <strong>{{ getCorrectAnswerString() }}</strong></p>
+      }
+    </div>
+
+    <button class="next-btn" (click)="onNextQuestion()">{{ t('continue') }}</button>
+  </div>
+  }
+  <!-- ЭКРАН 2: ПРОМЕЖУТОЧНЫЙ ЭКРАН ПОБЕДЫ  -->
+  @if (isLevelFinished()) {
+  <div class="end-screen success-screen">
+    <div class="icon-celebrate">🎉</div>
+    <h1>{{ t('level_passed') }}</h1>
+    <p>{{ t('next_unlocked') }}</p>
+    <button class="check-btn" (click)="goToNextLevel()">{{ t('continue') }}</button>
+    <button class="check-btn" (click)="goToMenu()"> {{ t('menu') }} </button>
+  </div>
+  }
+
+  <!-- ЭКРАН 3: ЭКРАН GAME OVER -->
+  @if (isGameOver()) {
+  <div class="end-screen fatal-screen">
+    <div class="icon-celebrate">💔</div>
+    <h1>{{ t('game_over') }}</h1>
+    <p>{{ t('try_again_desc') }}</p>
+    <button class="check-btn" (click)="resetGame()">{{ t('retry') }}</button>
+    <button class="check-btn" (click)="goToMenu()"> {{ t('menu') }} </button>
+  </div>
+  }
+</div>
