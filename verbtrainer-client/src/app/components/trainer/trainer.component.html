@@ -66,10 +66,8 @@
     </button>
   </div>
   <!-- Выезжающая шторка  -->
-  <div class="result-panel" 
-       [class.visible]="isAnswerChecked()" 
-       [class.correct]="isCurrentAnswerCorrect()"
-       [class.wrong]="!isCurrentAnswerCorrect()">
+  <div class="result-panel" [class.visible]="isAnswerChecked()" [class.correct]="isCurrentAnswerCorrect()"
+    [class.wrong]="!isCurrentAnswerCorrect()">
 
     <div class="result-text">
       @if (isCurrentAnswerCorrect()) {
@@ -81,27 +79,37 @@
       }
     </div>
 
-    <button class="next-btn" (click)="onNextQuestion()">{{ t('continue') }}</button>
+    <button class="next-btn" (click)="onNextQuiz()">{{ t('continue') }}</button>
   </div>
   }
-  <!-- ЭКРАН 2: ПРОМЕЖУТОЧНЫЙ ЭКРАН ПОБЕДЫ  -->
+  
+  <!-- ЭКРАНЫ ПОБЕДЫ  -->
   @if (isLevelFinished()) {
   <div class="end-screen success-screen">
+    @if (isFinalVictory()) {
+    <!-- ЭКРАН ФИНАЛЬНОЙ ПОБЕДЫ -->
+    <h2>🏆 Игра пройдена!</h2>
+    <p>Поздравляем! Вы успешно завершили все доступные уровни обучения!</p>
+    <button class="check-btn" (click)="goToMenu()"> {{ t('menu') }} </button>
+    }
+    @else {
+      <!-- ЭКРАН ПРОМЕЖУТОЧНОЙ ПОБЕДЫ -->
     <div class="icon-celebrate">🎉</div>
     <h1>{{ t('level_passed') }}</h1>
     <p>{{ t('next_unlocked') }}</p>
     <button class="check-btn" (click)="goToNextLevel()">{{ t('continue') }}</button>
     <button class="check-btn" (click)="goToMenu()"> {{ t('menu') }} </button>
+    }
   </div>
   }
 
-  <!-- ЭКРАН 3: ЭКРАН GAME OVER -->
+  <!-- ЭКРАН 4: GAME OVER -->
   @if (isGameOver()) {
   <div class="end-screen fatal-screen">
     <div class="icon-celebrate">💔</div>
     <h1>{{ t('game_over') }}</h1>
     <p>{{ t('try_again_desc') }}</p>
-    <button class="check-btn" (click)="resetGame()">{{ t('retry') }}</button>
+    <button class="check-btn" (click)="restartLevel()">{{ t('retry') }}</button>
     <button class="check-btn" (click)="goToMenu()"> {{ t('menu') }} </button>
   </div>
   }

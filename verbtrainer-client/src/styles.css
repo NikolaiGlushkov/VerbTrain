@@ -5,12 +5,16 @@ body {
   /* height: 100dvh; */
   height: 100%;
   width: 100%;
+  /* запрет скроллинга */
   overflow: hidden;
   /*Защита шрифтов от увеличения при перевороте */
   -webkit-text-size-adjust: 100%;
+  /* убирает вспыхивающие серые рамки при тапе */
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
+  /* защита от выделения  */
   user-select: none;
+  /* запрет bounce эффекта на iphone */
   overscroll-behavior: none;
 }
 
@@ -28,12 +32,15 @@ app-root {
 *::before,
 *::after {
   box-sizing: border-box;
+  /* убирает задержку тапа */
   touch-action: manipulation;
   /* margin и padding тут добавлены ради margin bottom для карточки 0908 */
   margin: 0;
   padding: 0;
 }
 
+/* дизайн токены (переменные) интерфейса */
+/* тут стоит прописывать универсальные правила дизайна */
 /* Короткие переменные безопасных зон (safe area)
 :root {
   --sat: env(safe-area-inset-top, 0px);

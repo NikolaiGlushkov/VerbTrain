@@ -10,7 +10,7 @@
   justify-content: flex-start;
   row-gap: clamp(10px, 3vh, 24px);
   padding-top: calc(env(safe-area-inset-top, 0px) + clamp(8px, 2vh, 16px));
-  /* увеличивает базовое расстояние под кнопкой проверить */
+  /* увеличивает базовое расстояние под кнопкой "проверить" */
   padding-bottom: calc(env(safe-area-inset-bottom, 0px) + clamp(16px, 2vh, 24px));
   padding-left: 16px;
   padding-right: 16px;
@@ -275,11 +275,13 @@
   transform: translate(-50%, 100%);
   width: 100%;
   max-width: 450px;
+  /* рассчет паддингов как в корневом контейнере */
   padding-bottom: calc(env(safe-area-inset-bottom, 0px) + clamp(16px, 2vh, 24px));
   padding-left: 20px;
   padding-right: 20px;
   padding-top: clamp(8px, 2vh, 16px);
   gap: clamp(12px, 2.5vh, 20px);
+  /* высота выдвигающейся шторки */
   min-height: auto;
   /* Максимальная высота — не более 45% экрана, чтобы не перекрыть весь квиз */
   max-height: 45dvh;

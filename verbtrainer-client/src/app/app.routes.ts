@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { LevelsComponent } from './components/levels/levels.component';
-import { TrainerComponent } from './components/trainer/trainer.component'; // Путь к вашему тренеру
+import { TrainerComponent } from './components/trainer/trainer.component'; 
 
 export const routes: Routes = [
   { path: '', component: LevelsComponent }, // Стартуем сразу с меню уровней

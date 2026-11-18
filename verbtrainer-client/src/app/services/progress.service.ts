@@ -22,10 +22,11 @@ export class ProgressService {
   }
 
   /**
-   * Разблокирует следующий уровень, если текущий успешно пройден
+   * Разблокирует следующий уровень в меню, если текущий успешно пройден
    */
   unlockNextLevel(currentLevel: number): void {
     const nextLevel = currentLevel + 1;
+    // 18.11 эта проверка нужна, чтобы пользователь мог перепройти уже открытый уровень
     if (currentLevel === this.maxUnlockedLevelSignal()) {
       this.maxUnlockedLevelSignal.set(nextLevel);
       // В будущем здесь будет запись в Capacitor: Preferences.set({ key: 'user_level', value: ... })
