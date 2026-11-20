@@ -1,0 +1,1116 @@
+[
+    {
+        "id": 1,
+        "infinitive": "be",
+        "languageLevel": 1,
+        "form2": "was / were",
+        "form3": "been",
+        "translation": "быть",
+        "form2Distractors": [
+            "was / wear",
+            "was / wer",
+            "vas / vere",
+            "wos / were"
+        ],
+        "form3Distractors": [
+            "wasen",
+            "weren",
+            "beened",
+            "bean"
+        ]
+    },
+    {
+        "id": 2,
+        "infinitive": "become",
+        "languageLevel": 1,
+        "form2": "became",
+        "form3": "become",
+        "translation": "становиться",
+        "form2Distractors": [
+            "bekame",
+            "become",
+            "becomed",
+            "becaim"
+        ],
+        "form3Distractors": [
+            "becomen",
+            "bekome",
+            "became",
+            "becomed"
+        ]
+    },
+    {
+        "id": 3,
+        "infinitive": "begin",
+        "languageLevel": 1,
+        "form2": "began",
+        "form3": "begun",
+        "translation": "начинать",
+        "form2Distractors": [
+            "begined",
+            "beegen",
+            "bigen",
+            "begen"
+        ],
+        "form3Distractors": [
+            "begined",
+            "began",
+            "begone",
+            "begon"
+        ]
+    },
+    {
+        "id": 4,
+        "infinitive": "break",
+        "languageLevel": 1,
+        "form2": "broke",
+        "form3": "broken",
+        "translation": "ломать",
+        "form2Distractors": [
+            "broked",
+            "brouke",
+            "brake",
+            "breaked"
+        ],
+        "form3Distractors": [
+            "breaked",
+            "brauken",
+            "broked",
+            "braiken"
+        ]
+    },
+    {
+        "id": 5,
+        "infinitive": "bring",
+        "languageLevel": 1,
+        "form2": "brought",
+        "form3": "brought",
+        "translation": "приносить",
+        "form2Distractors": [
+            "broung",
+            "brote",
+            "brouth",
+            "bringed"
+        ],
+        "form3Distractors": [
+            "bringen",
+            "bringed",
+            "broughten",
+            "broten"
+        ]
+    },
+    {
+        "id": 6,
+        "infinitive": "buy",
+        "languageLevel": 1,
+        "form2": "bought",
+        "form3": "bought",
+        "translation": "покупать",
+        "form2Distractors": [
+            "buyed",
+            "bout",
+            "bot",
+            "bouht"
+        ],
+        "form3Distractors": [
+            "buyen",
+            "boughten",
+            "boten",
+            "baught"
+        ]
+    },
+    {
+        "id": 7,
+        "infinitive": "catch",
+        "languageLevel": 1,
+        "form2": "caught",
+        "form3": "caught",
+        "translation": "ловить",
+        "form2Distractors": [
+            "сought",
+            "сode",
+            "catched",
+            "cut"
+        ],
+        "form3Distractors": [
+            "cought",
+            "catchen",
+            "cote",
+            "coat"
+        ]
+    },
+    {
+        "id": 8,
+        "infinitive": "come",
+        "languageLevel": 1,
+        "form2": "came",
+        "form3": "come",
+        "translation": "приходить, приезжать",
+        "form2Distractors": [
+            "comed",
+            "caim",
+            "ceim",
+            "went"
+        ],
+        "form3Distractors": [
+            "camen",
+            "comen",
+            "came",
+            "com"
+        ]
+    },
+    {
+        "id": 9,
+        "infinitive": "do",
+        "languageLevel": 1,
+        "form2": "did",
+        "form3": "done",
+        "translation": "делать, выполнять",
+        "form2Distractors": [
+            "died",
+            "deed",
+            "dide",
+            "dude"
+        ],
+        "form3Distractors": [
+            "diden",
+            "doing",
+            "dune",
+            "dane"
+        ]
+    },
+    {
+        "id": 10,
+        "infinitive": "drink",
+        "languageLevel": 1,
+        "form2": "drank",
+        "form3": "drunk",
+        "translation": "пить",
+        "form2Distractors": [
+            "drinked",
+            "drenk",
+            "drunk",
+            "dreank"
+        ],
+        "form3Distractors": [
+            "drank",
+            "drunken",
+            "drinken",
+            "drinking"
+        ]
+    },
+    {
+        "id": 11,
+        "infinitive": "drive",
+        "languageLevel": 1,
+        "form2": "drove",
+        "form3": "driven",
+        "translation": "ехать, водить",
+        "form2Distractors": [
+            "drived",
+            "drave",
+            "drouve",
+            "drauve"
+        ],
+        "form3Distractors": [
+            "driving",
+            "dreeven",
+            "dreaven",
+            "droven"
+        ]
+    },
+    {
+        "id": 12,
+        "infinitive": "eat",
+        "languageLevel": 1,
+        "form2": "ate",
+        "form3": "eaten",
+        "translation": "есть",
+        "form2Distractors": [
+            "eated",
+            "eight",
+            "eit",
+            "ait"
+        ],
+        "form3Distractors": [
+            "eatened",
+            "eten",
+            "ated",
+            "ethan"
+        ]
+    },
+    {
+        "id": 13,
+        "infinitive": "fall",
+        "languageLevel": 1,
+        "form2": "fell",
+        "form3": "fallen",
+        "translation": "падать",
+        "form2Distractors": [
+            "felled",
+            "falled",
+            "fault",
+            "feel"
+        ],
+        "form3Distractors": [
+            "fellen",
+            "follen",
+            "feelen",
+            "fault"
+        ]
+    },
+    {
+        "id": 14,
+        "infinitive": "find",
+        "languageLevel": 1,
+        "form2": "found",
+        "form3": "found",
+        "translation": "находить",
+        "form2Distractors": [
+            "finded",
+            "faund",
+            "fund",
+            "fint"
+        ],
+        "form3Distractors": [
+            "finden",
+            "faund",
+            "founden",
+            "fond"
+        ]
+    },
+    {
+        "id": 15,
+        "infinitive": "get (Brit.) ",
+        "languageLevel": 1,
+        "form2": "got",
+        "form3": "got",
+        "translation": "получать, брать, становиться, добираться",
+        "form2Distractors": [
+            "gought",
+            "god",
+            "gotted",
+            "gut"
+        ],
+        "form3Distractors": [
+            "gought",
+            "goten",
+            "gettin",
+            "goat"
+        ]
+    },
+    {
+        "id": 16,
+        "infinitive": "get (Amer.)",
+        "languageLevel": 1,
+        "form2": "got",
+        "form3": "gotten",
+        "translation": "получать, брать, становиться, добираться",
+        "form2Distractors": [
+            "gought",
+            "god",
+            "gotted",
+            "gut"
+        ],
+        "form3Distractors": [
+            "goten",
+            "gutten",
+            "gatten",
+            "getten"
+        ]
+    },
+    {
+        "id": 17,
+        "infinitive": "give",
+        "languageLevel": 1,
+        "form2": "gave",
+        "form3": "given",
+        "translation": "давать",
+        "form2Distractors": [
+            "gaved",
+            "gived",
+            "gaive",
+            "gove"
+        ],
+        "form3Distractors": [
+            "giving",
+            "gaven",
+            "gaive",
+            "gouven"
+        ]
+    },
+    {
+        "id": 18,
+        "infinitive": "go",
+        "languageLevel": 1,
+        "form2": "went",
+        "form3": "gone",
+        "translation": "идти",
+        "form2Distractors": [
+            "goned",
+            "gun",
+            "gain",
+            "gin"
+        ],
+        "form3Distractors": [
+            "gonen",
+            "gane",
+            "going",
+            "gonna"
+        ]
+    },
+    {
+        "id": 19,
+        "infinitive": "have",
+        "languageLevel": 1,
+        "form2": "had",
+        "form3": "had",
+        "translation": "иметь, обладать",
+        "form2Distractors": [
+            "hat",
+            "haved",
+            "hut",
+            "hed"
+        ],
+        "form3Distractors": [
+            "haven",
+            "head",
+            "haden",
+            "hate"
+        ]
+    },
+    {
+        "id": 20,
+        "infinitive": "know",
+        "languageLevel": 1,
+        "form2": "knew",
+        "form3": "known",
+        "translation": "знать",
+        "form2Distractors": [
+            "knowed",
+            "knev",
+            "knue",
+            "knewn"
+        ],
+        "form3Distractors": [
+            "knowen",
+            "knawn",
+            "knewen",
+            "knoun"
+        ]
+    },
+    {
+        "id": 21,
+        "infinitive": "make",
+        "languageLevel": 1,
+        "form2": "made",
+        "form3": "made",
+        "translation": "делать, производить",
+        "form2Distractors": [
+            "maked",
+            "mate",
+            "maid",
+            "mood"
+        ],
+        "form3Distractors": [
+            "maden",
+            "maiden",
+            "mad",
+            "maken"
+        ]
+    },
+    {
+        "id": 22,
+        "infinitive": "run",
+        "languageLevel": 1,
+        "form2": "ran",
+        "form3": "run",
+        "translation": "бегать",
+        "form2Distractors": [
+            "ren",
+            "runned",
+            "run",
+            "rain"
+        ],
+        "form3Distractors": [
+            "rannen",
+            "rennen",
+            "ron",
+            "ruin"
+        ]
+    },
+    {
+        "id": 23,
+        "infinitive": "say",
+        "languageLevel": 1,
+        "form2": "said",
+        "form3": "said",
+        "translation": "сказать, говорить",
+        "form2Distractors": [
+            "sought",
+            "sayd",
+            "sayed",
+            "sad"
+        ],
+        "form3Distractors": [
+            "saiden",
+            "saien",
+            "sayen",
+            "sound"
+        ]
+    },
+    {
+        "id": 24,
+        "infinitive": "see",
+        "languageLevel": 1,
+        "form2": "saw",
+        "form3": "seen",
+        "translation": "видеть",
+        "form2Distractors": [
+            "sea",
+            "sow",
+            "sew",
+            "sead"
+        ],
+        "form3Distractors": [
+            "seed",
+            "seened",
+            "seaned",
+            "sean"
+        ]
+    },
+    {
+        "id": 25,
+        "infinitive": "take",
+        "languageLevel": 1,
+        "form2": "took",
+        "form3": "taken",
+        "translation": "брать, принимать",
+        "form2Distractors": [
+            "taked",
+            "tuke",
+            "toock",
+            "toke"
+        ],
+        "form3Distractors": [
+            "token",
+            "takin",
+            "takn",
+            "tacken"
+        ]
+    },
+    {
+        "id": 26,
+        "infinitive": "teach",
+        "languageLevel": 1,
+        "form2": "taught",
+        "form3": "taught",
+        "translation": "учить",
+        "form2Distractors": [
+            "tought",
+            "tot",
+            "ted",
+            "teached"
+        ],
+        "form3Distractors": [
+            "taughten",
+            "teachen",
+            "tought",
+            "tough"
+        ]
+    },
+    {
+        "id": 27,
+        "infinitive": "build",
+        "languageLevel": 2,
+        "form2": "built",
+        "form3": "built",
+        "translation": "строить",
+        "form2Distractors": [
+            "boulght",
+            "builded",
+            "bold",
+            "bilt"
+        ],
+        "form3Distractors": [
+            "builten",
+            "builded",
+            "build",
+            "belt"
+        ]
+    },
+    {
+        "id": 28,
+        "infinitive": "choose",
+        "languageLevel": 2,
+        "form2": "chose",
+        "form3": "chosen",
+        "translation": "выбирать",
+        "form2Distractors": [
+            "cheese",
+            "chase",
+            "chosed",
+            "chouse"
+        ],
+        "form3Distractors": [
+            "cheesen",
+            "choosen",
+            "chasen",
+            "chose"
+        ]
+    },
+    {
+        "id": 29,
+        "infinitive": "cost",
+        "languageLevel": 2,
+        "form2": "cost",
+        "form3": "cost",
+        "translation": "стоить",
+        "form2Distractors": [
+            "coast",
+            "costed",
+            "costs",
+            "cast"
+        ],
+        "form3Distractors": [
+            "costen",
+            "costed",
+            "couse",
+            "coused"
+        ]
+    },
+    {
+        "id": 30,
+        "infinitive": "cut",
+        "languageLevel": 2,
+        "form2": "cut",
+        "form3": "cut",
+        "translation": "резать",
+        "form2Distractors": [
+            "cote",
+            "cutted",
+            "coat",
+            "cate"
+        ],
+        "form3Distractors": [
+            "cutten",
+            "cutting",
+            "cought",
+            "cat"
+        ]
+    },
+    {
+        "id": 31,
+        "infinitive": "feel",
+        "languageLevel": 2,
+        "form2": "felt",
+        "form3": "felt",
+        "translation": "чувствовать",
+        "form2Distractors": [
+            "fall",
+            "feeled",
+            "fell",
+            "field"
+        ],
+        "form3Distractors": [
+            "feelen",
+            "felten",
+            "filth",
+            "fool"
+        ]
+    },
+    {
+        "id": 32,
+        "infinitive": "fight",
+        "languageLevel": 2,
+        "form2": "fought",
+        "form3": "fought",
+        "translation": "бороться, драться",
+        "form2Distractors": [
+            "fighted",
+            "fit",
+            "foll",
+            "foughten"
+        ],
+        "form3Distractors": [
+            "faught",
+            "fighten",
+            "foul",
+            "fout"
+        ]
+    },
+    {
+        "id": 33,
+        "infinitive": "fly",
+        "languageLevel": 2,
+        "form2": "flew",
+        "form3": "flown",
+        "translation": "летать",
+        "form2Distractors": [
+            "fled",
+            "fley",
+            "flied",
+            "flow"
+        ],
+        "form3Distractors": [
+            "flewn",
+            "flowed",
+            "flu",
+            "flyen"
+        ]
+    },
+    {
+        "id": 34,
+        "infinitive": "forget",
+        "languageLevel": 2,
+        "form2": "forgot",
+        "form3": "forgotten",
+        "translation": "забывать",
+        "form2Distractors": [
+            "forgat",
+            "forgetted",
+            "forgought",
+            "forgotten"
+        ],
+        "form3Distractors": [
+            "forgetten",
+            "forgot",
+            "forgote",
+            "forgut"
+        ]
+    },
+    {
+        "id": 35,
+        "infinitive": "grow",
+        "languageLevel": 2,
+        "form2": "grew",
+        "form3": "grown",
+        "translation": "расти",
+        "form2Distractors": [
+            "graw",
+            "growed",
+            "grown",
+            "grue"
+        ],
+        "form3Distractors": [
+            "grewn",
+            "ground",
+            "growen",
+            "groan"
+        ]
+    },
+    {
+        "id": 36,
+        "infinitive": "hear",
+        "languageLevel": 2,
+        "form2": "heard",
+        "form3": "heard",
+        "translation": "слышать",
+        "form2Distractors": [
+            "hard",
+            "heared",
+            "heart",
+            "herd"
+        ],
+        "form3Distractors": [
+            "head",
+            "heardten",
+            "hearen",
+            "hurt"
+        ]
+    },
+    {
+        "id": 37,
+        "infinitive": "hit",
+        "languageLevel": 2,
+        "form2": "hit",
+        "form3": "hit",
+        "translation": "ударять",
+        "form2Distractors": [
+            "hat",
+            "heat",
+            "hitted",
+            "hot"
+        ],
+        "form3Distractors": [
+            "height",
+            "hid",
+            "hiten",
+            "hitten"
+        ]
+    },
+    {
+        "id": 38,
+        "infinitive": "hold",
+        "languageLevel": 2,
+        "form2": "held",
+        "form3": "held",
+        "translation": "держать",
+        "form2Distractors": [
+            "hald",
+            "heled",
+            "holded",
+            "hole"
+        ],
+        "form3Distractors": [
+            "helden",
+            "holden",
+            "holed",
+            "holt"
+        ]
+    },
+    {
+        "id": 39,
+        "infinitive": "hurt",
+        "languageLevel": 2,
+        "form2": "hurt",
+        "form3": "hurt",
+        "translation": "ранить, причинять боль",
+        "form2Distractors": [
+            "hard",
+            "hart",
+            "heart",
+            "hurted"
+        ],
+        "form3Distractors": [
+            "heard",
+            "hurten",
+            "hurting",
+            "hut"
+        ]
+    },
+    {
+        "id": 40,
+        "infinitive": "keep",
+        "languageLevel": 2,
+        "form2": "kept",
+        "form3": "kept",
+        "translation": "хранить, держать",
+        "form2Distractors": [
+            "keeped",
+            "kipt",
+            "koopt",
+            "kopt"
+        ],
+        "form3Distractors": [
+            "cape",
+            "keepen",
+            "kepten",
+            "zipped"
+        ]
+    },
+    {
+        "id": 41,
+        "infinitive": "leave",
+        "languageLevel": 2,
+        "form2": "left",
+        "form3": "left",
+        "translation": "покидать, оставлять",
+        "form2Distractors": [
+            "leaf",
+            "leat",
+            "leaved",
+            "loof"
+        ],
+        "form3Distractors": [
+            "leaven",
+            "leften",
+            "lift",
+            "live"
+        ]
+    },
+    {
+        "id": 42,
+        "infinitive": "let",
+        "languageLevel": 2,
+        "form2": "let",
+        "form3": "let",
+        "translation": "позволять",
+        "form2Distractors": [
+            "late",
+            "leted",
+            "lets",
+            "lit"
+        ],
+        "form3Distractors": [
+            "leat",
+            "leten",
+            "letted",
+            "letten"
+        ]
+    },
+    {
+        "id": 43,
+        "infinitive": "lose",
+        "languageLevel": 2,
+        "form2": "lost",
+        "form3": "lost",
+        "translation": "терять",
+        "form2Distractors": [
+            "loosed",
+            "losed",
+            "loss",
+            "luce"
+        ],
+        "form3Distractors": [
+            "loosen",
+            "losen",
+            "losted",
+            "losten"
+        ]
+    },
+    {
+        "id": 44,
+        "infinitive": "meet",
+        "languageLevel": 2,
+        "form2": "met",
+        "form3": "met",
+        "translation": "встречать",
+        "form2Distractors": [
+            "mat",
+            "meat",
+            "meeted",
+            "mit"
+        ],
+        "form3Distractors": [
+            "meeten",
+            "meten",
+            "metted",
+            "moat"
+        ]
+    },
+    {
+        "id": 45,
+        "infinitive": "pay",
+        "languageLevel": 2,
+        "form2": "paid",
+        "form3": "paid",
+        "translation": "платить",
+        "form2Distractors": [
+            "pad",
+            "payed",
+            "payd",
+            "pie"
+        ],
+        "form3Distractors": [
+            "paiden",
+            "payen",
+            "peid",
+            "pond"
+        ]
+    },
+    {
+        "id": 46,
+        "infinitive": "put",
+        "languageLevel": 2,
+        "form2": "put",
+        "form3": "put",
+        "translation": "класть, ставить",
+        "form2Distractors": [
+            "pat",
+            "pet",
+            "pouted",
+            "puted"
+        ],
+        "form3Distractors": [
+            "pought",
+            "puten",
+            "puted",
+            "putten"
+        ]
+    },
+    {
+        "id": 47,
+        "infinitive": "read",
+        "languageLevel": 2,
+        "form2": "read",
+        "form3": "read",
+        "translation": "читать",
+        "form2Distractors": [
+            "rad",
+            "readed",
+            "red",
+            "redd"
+        ],
+        "form3Distractors": [
+            "readen",
+            "readden",
+            "riddle",
+            "rode"
+        ]
+    },
+    {
+        "id": 48,
+        "infinitive": "ring",
+        "languageLevel": 2,
+        "form2": "rang",
+        "form3": "rung",
+        "translation": "звонить",
+        "form2Distractors": [
+            "rangan",
+            "ringed",
+            "rong",
+            "rung"
+        ],
+        "form3Distractors": [
+            "rang",
+            "ringen",
+            "rink",
+            "rungen"
+        ]
+    },
+    {
+        "id": 49,
+        "infinitive": "sell",
+        "languageLevel": 2,
+        "form2": "sold",
+        "form3": "sold",
+        "translation": "продавать",
+        "form2Distractors": [
+            "celled",
+            "sald",
+            "selled",
+            "sild"
+        ],
+        "form3Distractors": [
+            "cell",
+            "sallen",
+            "sellen",
+            "solden"
+        ]
+    },
+    {
+        "id": 50,
+        "infinitive": "send",
+        "languageLevel": 2,
+        "form2": "sent",
+        "form3": "sent",
+        "translation": "посылать",
+        "form2Distractors": [
+            "sand",
+            "sended",
+            "sound",
+            "sunt"
+        ],
+        "form3Distractors": [
+            "cent",
+            "senden",
+            "senten",
+            "sounden"
+        ]
+    },
+    {
+        "id": 51,
+        "infinitive": "sit",
+        "languageLevel": 2,
+        "form2": "sat",
+        "form3": "sat",
+        "translation": "сидеть",
+        "form2Distractors": [
+            "seat",
+            "set",
+            "sited",
+            "sitted"
+        ],
+        "form3Distractors": [
+            "saten",
+            "sitten",
+            "sought",
+            "suit"
+        ]
+    },
+    {
+        "id": 52,
+        "infinitive": "sleep",
+        "languageLevel": 2,
+        "form2": "slept",
+        "form3": "slept",
+        "translation": "спать",
+        "form2Distractors": [
+            "slapt",
+            "sleeped",
+            "slipt",
+            "slopt"
+        ],
+        "form3Distractors": [
+            "sleepen",
+            "slepten",
+            "slip",
+            "slope"
+        ]
+    },
+    {
+        "id": 53,
+        "infinitive": "write",
+        "languageLevel": 2,
+        "form2": "wrote",
+        "form3": "written",
+        "translation": "писать",
+        "form2Distractors": [
+            "right",
+            "writed",
+            "written",
+            "wroat"
+        ],
+        "form3Distractors": [
+            "riten",
+            "writeen",
+            "wroten",
+            "wrotte"
+        ]
+    },
+    {
+        "Infinitive": "wear",
+        "Level": 3,
+        "Forms": [
+            {
+                "FormType": 2,
+                "Value": "wore"
+            },
+            {
+                "FormType": 3,
+                "Value": "worn"
+            }
+        ],
+        "Translations": [
+            {
+                "TargetLanguageCode": "ru",
+                "TranslationText": "носить"
+            }
+        ],
+        "Distractors": [
+            {
+                "FormType": 2,
+                "Value": "wour"
+            },
+            {
+                "FormType": 2,
+                "Value": "weared"
+            },
+            {
+                "FormType": 2,
+                "Value": "weird"
+            },
+            {
+                "FormType": 2,
+                "Value": "warn"
+            },
+            {
+                "FormType": 3,
+                "Value": "warn"
+            },
+            {
+                "FormType": 3,
+                "Value": "woren"
+            },
+            {
+                "FormType": 3,
+                "Value": "warnen"
+            },
+            {
+                "FormType": 3,
+                "Value": "warner"
+            }
+        ]
+    }
+]

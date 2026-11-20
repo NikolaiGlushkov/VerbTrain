@@ -1,6 +1,6 @@
 <div class="trainer-container">
 
-  @if (!isLevelFinished() && !isGameOver()) {
+  @if (!isLevelFinished() && !isGameOver() && !isFinalVictory()) {
   <!-- Верхняя зона: Прогресс-бар и Жизни -->
   <div class="top-header-zone">
     <div class="progress-container">
@@ -75,7 +75,7 @@
       <p>{{ t('correct_desc') }}</p>
       } @else {
       <h2>{{ t('error') }}</h2>
-      <p>{{ t('correct_was') }}: <strong>{{ getCorrectAnswerString() }}</strong></p>
+      <p>{{ t('correct_was') }}: <strong>{{ getCorrectAnswer() }}</strong></p>
       }
     </div>
 
@@ -83,25 +83,17 @@
   </div>
   }
   
-  <!-- ЭКРАНЫ ПОБЕДЫ  -->
+  <!-- ЭКРАНЫ ПРОМЕЖУТОЧНОЙ ПОБЕДЫ  -->
   @if (isLevelFinished()) {
   <div class="end-screen success-screen">
-    @if (isFinalVictory()) {
-    <!-- ЭКРАН ФИНАЛЬНОЙ ПОБЕДЫ -->
-    <h2>🏆 Игра пройдена!</h2>
-    <p>Поздравляем! Вы успешно завершили все доступные уровни обучения!</p>
-    <button class="check-btn" (click)="goToMenu()"> {{ t('menu') }} </button>
-    }
-    @else {
-      <!-- ЭКРАН ПРОМЕЖУТОЧНОЙ ПОБЕДЫ -->
     <div class="icon-celebrate">🎉</div>
     <h1>{{ t('level_passed') }}</h1>
     <p>{{ t('next_unlocked') }}</p>
     <button class="check-btn" (click)="goToNextLevel()">{{ t('continue') }}</button>
     <button class="check-btn" (click)="goToMenu()"> {{ t('menu') }} </button>
-    }
   </div>
   }
+
 
   <!-- ЭКРАН 4: GAME OVER -->
   @if (isGameOver()) {
@@ -113,4 +105,15 @@
     <button class="check-btn" (click)="goToMenu()"> {{ t('menu') }} </button>
   </div>
   }
+
+  <!-- ЭКРАН ОКОНЧАТЕЛЬНОЙ ПОБЕДЫ -->
+   <!-- 19 11 тут нужна локализация -->
+@if (isFinalVictory()) {
+  <div class="end-screen final-victory-screen">
+    <div class="icon-celebrate">🏆</div>
+    <h1>Игра пройдена!</h1>
+    <p>Поздравляем! Вы успешно завершили все доступные уровни обучения!</p>
+    <button class="check-btn" (click)="goToMenu()">{{ t('menu') }}</button>
+  </div>
+}
 </div>

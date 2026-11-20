@@ -19,7 +19,6 @@ export class VerbService {
   // метод принимает в параметры код языка и уровень сложности, возвращает список глаголов
   getVerbs(langCode: string, level: number): Observable<IVerb[]> {
     if (!this.verbsData$) {
-
       this.verbsData$ = this.http.get<IVerb[]>(this.apiUrl).pipe(
         shareReplay(1)
       );
